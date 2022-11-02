@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -52,7 +52,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
 }
-/* Hero Section */
+
 
 #hero {
   display: flex;
@@ -73,7 +73,6 @@ main {
   border-radius: 5rem;
 }
 
-/* Long Card Section */
 
 .h-card {
   display: flex;
@@ -104,7 +103,7 @@ main {
   border-bottom: 1px solid #ccc;
 }
 
-/* v-cards */
+
 
 .v-card {
   display: flex;
@@ -148,30 +147,4 @@ footer ul li {
   font-size: 1.8rem;
 }
 
-/* Post page */
-.banner_image img {
-  width: 100%;
-}
-.post h1 {
-  font-size: 3rem;
-}
-.post hr {
-  margin: 3rem 0;
-}
-.about-author {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
 
-article {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  margin-bottom: 2rem;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
